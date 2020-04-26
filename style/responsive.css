@@ -1,3 +1,6 @@
+@media (max-width: 420px){
+
+}
 @media (max-width: 670px){
     .navbar-right a {
         display: none;
@@ -12,4 +15,48 @@
         background-color: rgba(10, 189, 227,0);
         color: rgba(10, 189, 227,1.0);
     }
+
+    .contact-left{
+        float: left;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .social{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 36px;
+    color:white;
+    }
+    .social p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .address p{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 24px;
+    color:white;
+    word-wrap: break-word;
+    text-align: center;
+    }
+    .contact-right{
+    margin-left: auto;
+        margin-right: auto;
+        display: block;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 50px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    input,textarea,button{
+        max-width: 100%;
+        
+    }
+}
+@media (max-width: 1080px){
+
 }
